@@ -10,3 +10,21 @@ This Code is a project developed using REST Architecture for queries of Cities a
 There is also an implementation of manual search of distance between points via the related ID in the database.
 Feel free to comment and use the code for studies! If you have any questions or suggestions, please feel free to contact me.
 
+link para o repositório SQL / link for the SQL Repository:
+
+https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL
+
+
+cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+
+docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
+
+psql -h localhost -U postgres_user_city cities -f /tmp/pais.sql
+psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
+psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
+
+psql -h localhost -U postgres_user_city cities
+
+CREATE EXTENSION cube; 
+CREATE EXTENSION earthdistance;
+
