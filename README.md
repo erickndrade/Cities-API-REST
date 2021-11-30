@@ -10,7 +10,7 @@ This Code is a project developed using REST Architecture for queries of Cities a
 There is also an implementation of manual search of distance between points via the related ID in the database.
 Feel free to comment and use the code for studies! If you have any questions or suggestions, please feel free to contact me.
 
-link para o repositório SQL / link for the SQL Repository:
+Link para o repositório SQL / link for the SQL Repository:
 
 https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL
 
