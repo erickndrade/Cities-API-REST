@@ -16,7 +16,7 @@ Feel free to comment and use the code for studies! If you have any questions or 
 
 ## Link para o repositório SQL / Link for the SQL Repository:
 
-https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL
+[SqlRepository](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
 
 docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
 
@@ -31,5 +31,9 @@ psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
 psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
 
 psql -h localhost -U postgres_user_city cities
+
+## Implementação do Heroku / Heroku Implementation
+
+[HerokuDevCenter](https://devcenter.heroku.com/articles/getting-started-with-gradle-on-heroku)
 
 
